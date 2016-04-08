@@ -1,0 +1,49 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	height: 100%;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+/* Card */
+
+#card-central {
+	min-width: 320px;
+}
+
+#card-title {
+	height: 72px;
+	min-width: 100%;
+}
+
+#title {
+	width: 100%;
+	font-size: 28px;
+	line-height: 1.2;
+}
+/* Card Container */
+
+#quote-container {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+	position: relative;
+	min-height: 150px;
+}
+
+#quote-content {
+	font-size: 18px;
+	font-family: 'Droid Serif', serif;
+}
+
+#quote-author {
+	font-family: 'Droid Serif', serif;
+}
+
+#botao-twitter {
+	padding-top: 8px;
+}
